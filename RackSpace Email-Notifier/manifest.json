@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "RackSpace Email Desktop Notifications.js" ],
+        "matches":          [   "http://apps.rackspace.com/a/webmail.php*",
+                                "https://apps.rackspace.com/a/webmail.php*"
+                            ],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Checks inbox every minute and notifies via desktop Notifications on new Emails and number of unread mails per folder.",
+    "name":         "RackSpace Email Desktop Notifications",
+    "version":      "1"
+}
