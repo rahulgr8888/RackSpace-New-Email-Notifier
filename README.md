@@ -1,6 +1,8 @@
 # RackSpace-New-Email-Notifier
 ##UserScript and Chrome extension
 
+### This script has been deprecated as the code on their website has changed. Feel free to pick it up and make changes according to the new site.
+
 Script to check for new emails in any of the folders every minute and if got new mail, display the notification on desktop
 
 ~Using Web Notifications API
